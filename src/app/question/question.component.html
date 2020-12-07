@@ -1,0 +1,15 @@
+<h1>Add a question</h1>
+<mat-form-field>
+    Question
+    <mat-label>Question</mat-label>
+    <input matInput placeholder="question" type="text" [(ngModel)]="text">
+</mat-form-field>
+<mat-form-field>
+    Answer
+    <mat-label>Answer</mat-label>
+    <input matInput placeholder="answer" type="number" [(ngModel)]="option">
+</mat-form-field>
+<br>
+<button mat-button color="accent" (click)="addQuestion()">Add Question</button>
+
+
